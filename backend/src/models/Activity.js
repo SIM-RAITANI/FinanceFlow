@@ -1,0 +1,25 @@
+import mongoose from 'mongoose';
+
+const activitySchema = new mongoose.Schema({
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+        required: true
+    },
+    action: {
+        type: String,
+        required: true,
+    },
+    targetUser: {
+        type: String, 
+        default: 'System'
+    },
+    details: {
+        type: String,
+        required: true
+    },
+    ipAddress: String
+}, { timestamps: true });
+
+const Activity = mongoose.model('Activity', activitySchema);
+export default Activity;
