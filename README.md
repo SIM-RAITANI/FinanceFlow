@@ -21,8 +21,8 @@ FinanceFlow is a full-stack MERN application designed for organizational financi
 | :--- | :---: | :---: | :---: |
 | View Personal Dashboard | ✅ | ✅ | ✅ |
 | View Global Analytics | ✅ | ✅ | ❌ |
-| Create Transactions (Self) | ✅ | ✅ | ✅ |
-| Create Transactions (Others) | ✅ | ✅ | ❌ |
+| Create Transactions (Self) | ✅ | ❌ | ❌ |
+| Create Transactions (Others) | ✅ | ❌ | ❌ |
 | Delete Transactions | ✅ | ❌ | ❌ |
 | Manage Users (Roles/Status) | ✅ | ❌ | ❌ |
 | View Security Audit Logs | ✅ | ❌ | ❌ |
