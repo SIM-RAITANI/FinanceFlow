@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import morgan from 'morgan';
 import connectDB from './config/db.js';
 
+
 import authRoutes from './routes/authRoutes.js';
 import financialRoutes from './routes/financialRoutes.js';
 import userRoutes from './routes/userRoutes.js';
@@ -31,12 +32,7 @@ app.use('/api/v1/finance',financialRoutes);
 app.use('/api/v1/users',userRoutes);
 app.use('/api/v1/admin',adminRoutes);
 
-// app.use('(.*)',(req,res)=>{
-//     res.status(404).json({
-//         status:'fail',
-//         message:'Route not found'
-//     });
-// })
+
 
 app.use((err,req,res,next)=>{
     const statusCode=err.statusCode || 500;

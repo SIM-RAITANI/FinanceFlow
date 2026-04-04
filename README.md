@@ -29,11 +29,42 @@ FinanceFlow is a full-stack MERN application designed for organizational financi
 
 ---
 
+## Sample Credentials To See The Financial Dashboard
+
+| Role | Email | Password | Username |
+| :--- | :---: | :---: | :---: |
+| Admin | admin@gmail.com | admin123 | super_admin |
+| Analyst | analyst@gmail.com | hello123 | super_analyst |
+
+
+---
+
 ## ✨ Key Features
 - **Smart Dashboard:** Context-aware UI that switches between "Global Overview" and "Personal View" based on login.
 - **Security Audit Trail:** A dedicated ledger that logs every critical administrative action (Role changes, deletions, etc.).
 - **Visual Analytics:** Real-time Pie and Bar charts showing "Top Spenders" and "Category Distribution" using MongoDB Aggregation.
 - **Account Kill-Switch:** Admins can instantly deactivate/activate any user account.
+
+---
+
+## 📸 Screenshots
+
+### 🖥️ Admin Dashboard (Global Overview)
+*Monitor organization-wide spending and top contributors at a glance.*
+![Admin Dashboard](./screenshots/Admin_Dashboard.png)
+
+
+### 🛡️ Security Audit Trail
+*Detailed logs of administrative actions for complete transparency and accountability.*
+![Audit Logs](./screenshots/Admin_Security_Audit_Trial_Page.png)
+
+### ⚙️Admin User Management
+*Admin-only interface to manage user roles and account statuses.*
+![User Management](./screenshots/Admin_User_Management_Page.png)
+
+### ⚙️Admin Transaction Page
+*Admin-only interface to manage user roles and account statuses.*
+![User Management](./screenshots/Admin_Transaction_Page.png)
 
 ---
 
