@@ -63,7 +63,7 @@ FinanceFlow is a full-stack MERN application designed for organizational financi
 ![User Management](./screenshots/Admin_User_Management_Page.png)
 
 ### ⚙️Admin Transaction Page
-*Admin-only interface to manage user roles and account statuses.*
+*Admin-only interface to manage and see all users transactions.*
 ![User Management](./screenshots/Admin_Transaction_Page.png)
 
 ---
